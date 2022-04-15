@@ -28,6 +28,7 @@ function ToDo({ text, category, id }:IToDo) {
       {category !== Categories.DONE && (
         <button name={Categories.DONE} onClick={onClick}>Done</button>
       )}
+      <button>Delete</button>
     </li>
   ); 
 }

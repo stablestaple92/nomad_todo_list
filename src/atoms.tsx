@@ -5,17 +5,21 @@ export enum Categories {
   "DOING" = "DOING",
   "DONE" = "DONE",
 }
+
+// Todo 기본 형태 (타입)
 export interface IToDo {
   text: string;
   id: number;
   category: Categories;
 }
 
+// todo의 category state - enum Categories를 type으로 가짐.
 export const categoryState = atom<Categories>({
   key: "category",
   default: Categories.TO_DO,
 });
 
+// todo 기본 state 형태 (타입)
 export const toDoState = atom<IToDo[]>({
   key: "toDo",
   default: [],

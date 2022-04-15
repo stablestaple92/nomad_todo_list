@@ -34,6 +34,7 @@ function ToDoList () {
 }
 
 /* about react-hook-form
+// react-hook-form의 register함수를 사용하면 onChange이벤트 핸들러를 사용할 필요가 없다.
 interface IForm {
   email: string,
   firstName: string,
