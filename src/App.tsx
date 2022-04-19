@@ -1,6 +1,16 @@
 import { createGlobalStyle } from "styled-components";
 import ToDoList from "./components/ToDoList";
 
+/**
+ * To do List
+ * 
+ * 코드 챌린지
+ * 
+ * 1. 삭제
+ * 2. LocalStorage 이용하기
+ * 
+ */
+
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
   html, body, div, span, applet, object, iframe,
